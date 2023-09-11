@@ -1,0 +1,225 @@
+# Created at 2023-09-11T18:18:22.602
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:398)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+
+# Created at 2023-09-11T18:18:23.328
+Unexpected IOException with stream: 18:18:23.328 [main] INFO  APITests.BaseTest - testDeleteBookingReturns201 has been executed
+
+
+# Created at 2023-09-11T18:18:23.329
+Unexpected IOException: 6,1,APITests.DeleteBookingTests,testDeleteBookingReturns201,null,null,null
+
+
+# Created at 2023-09-11T18:18:23.337
+Unexpected IOException with stream: 18:18:23.337 [main] INFO  APITests.BaseTest - All test cases have been executed.
+
+
+# Created at 2023-09-11T18:18:23.338
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.DeleteBookingTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:23.339
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.GetBookingTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:24.480
+Unexpected IOException with stream: 18:18:24.479 [main] INFO  APITests.BaseTest - Test case execution has started
+
+
+# Created at 2023-09-11T18:18:24.481
+Unexpected IOException: 5,1,APITests.GetBookingTests,testGetBookingByIdReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:27.936
+Unexpected IOException with stream: 18:18:27.935 [main] INFO  APITests.BaseTest - testGetBookingByIdReturns200 has been executed
+
+
+# Created at 2023-09-11T18:18:27.937
+Unexpected IOException: 6,1,APITests.GetBookingTests,testGetBookingByIdReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:27.937
+Unexpected IOException: 5,1,APITests.GetBookingTests,testGetAllBookingIdsReturnsNonEmptyArray,null,null,null
+
+
+# Created at 2023-09-11T18:18:30.502
+Unexpected IOException with stream: 18:18:30.501 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray has been executed
+
+
+# Created at 2023-09-11T18:18:30.502
+Unexpected IOException: 6,1,APITests.GetBookingTests,testGetAllBookingIdsReturnsNonEmptyArray,null,null,null
+
+
+# Created at 2023-09-11T18:18:30.503
+Unexpected IOException: 5,1,APITests.GetBookingTests,testGetBookingIdsByNameReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:32.895
+Unexpected IOException with stream: 18:18:32.895 [main] INFO  APITests.BaseTest - testGetBookingIdsByNameReturns200 has been executed
+
+
+# Created at 2023-09-11T18:18:32.896
+Unexpected IOException: 6,1,APITests.GetBookingTests,testGetBookingIdsByNameReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:32.898
+Unexpected IOException: 5,1,APITests.GetBookingTests,testGetAllBookingIdsReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:35.323
+Unexpected IOException with stream: 18:18:35.322 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturns200 has been executed
+
+
+# Created at 2023-09-11T18:18:35.324
+Unexpected IOException: 6,1,APITests.GetBookingTests,testGetAllBookingIdsReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:35.324
+Unexpected IOException: 5,1,APITests.GetBookingTests,testGetBookingIdsByDateReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:37.659
+Unexpected IOException with stream: 18:18:37.659 [main] INFO  APITests.BaseTest - testGetBookingIdsByDateReturns200 has been executed
+
+
+# Created at 2023-09-11T18:18:37.660
+Unexpected IOException: 6,1,APITests.GetBookingTests,testGetBookingIdsByDateReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:18:37.678
+Unexpected IOException with stream: 18:18:37.677 [main] INFO  APITests.BaseTest - All test cases have been executed.
+
+
+# Created at 2023-09-11T18:18:37.679
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.GetBookingTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:37.680
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.NegativeTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:38.821
+Unexpected IOException with stream: 18:18:38.820 [main] INFO  APITests.BaseTest - Test case execution has started
+
+
+# Created at 2023-09-11T18:18:38.821
+Unexpected IOException: 5,1,APITests.NegativeTests,testGetAllBookingIdsReturnsNonEmptyArray,null,null,null
+
+
+# Created at 2023-09-11T18:18:41.448
+Unexpected IOException with stream: 18:18:41.448 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray has been executed
+
+
+# Created at 2023-09-11T18:18:41.449
+Unexpected IOException: 6,1,APITests.NegativeTests,testGetAllBookingIdsReturnsNonEmptyArray,null,null,null
+
+
+# Created at 2023-09-11T18:18:41.450
+Unexpected IOException: 5,1,APITests.NegativeTests,testUpdateBookingReturns405,null,null,null
+
+
+# Created at 2023-09-11T18:18:43.831
+Unexpected IOException with stream: 18:18:43.831 [main] INFO  APITests.BaseTest - testUpdateBookingReturns405 has been executed
+
+
+# Created at 2023-09-11T18:18:43.832
+Unexpected IOException: 6,1,APITests.NegativeTests,testUpdateBookingReturns405,null,null,null
+
+
+# Created at 2023-09-11T18:18:43.833
+Unexpected IOException: 5,1,APITests.NegativeTests,testCreateTokenReturnsNonEmptyToken,null,null,null
+
+
+# Created at 2023-09-11T18:18:44.951
+Unexpected IOException: 6,1,APITests.NegativeTests,testCreateTokenReturnsNonEmptyToken,null,null,null
+
+
+# Created at 2023-09-11T18:18:44.952
+Unexpected IOException: 5,1,APITests.NegativeTests,testDeleteBookingReturns401,null,null,null
+
+
+# Created at 2023-09-11T18:18:48.555
+Unexpected IOException with stream: 18:18:48.554 [main] INFO  APITests.BaseTest - testDeleteBookingReturns401 has been executed
+
+
+# Created at 2023-09-11T18:18:48.556
+Unexpected IOException: 6,1,APITests.NegativeTests,testDeleteBookingReturns401,null,null,null
+
+
+# Created at 2023-09-11T18:18:48.557
+Unexpected IOException: 5,1,APITests.NegativeTests,testDeleteBookingReturns403,null,null,null
+
+
+# Created at 2023-09-11T18:18:52.098
+Unexpected IOException with stream: 18:18:52.096 [main] INFO  APITests.BaseTest - testDeleteBookingReturns403 has been executed
+
+
+# Created at 2023-09-11T18:18:52.099
+Unexpected IOException: 6,1,APITests.NegativeTests,testDeleteBookingReturns403,null,null,null
+
+
+# Created at 2023-09-11T18:18:52.114
+Unexpected IOException with stream: 18:18:52.113 [main] INFO  APITests.BaseTest - All test cases have been executed.
+
+
+# Created at 2023-09-11T18:18:52.114
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.NegativeTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:52.115
+Unexpected IOException: 1,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.UpdateBookingTests,null,null,null
+
+
+# Created at 2023-09-11T18:18:53.270
+Unexpected IOException with stream: 18:18:53.269 [main] INFO  APITests.BaseTest - Test case execution has started
+
+
+# Created at 2023-09-11T18:18:53.272
+Unexpected IOException: 5,1,APITests.UpdateBookingTests,testUpdateBookingReturnsCorrectDetails,null,null,null
+
+
+# Created at 2023-09-11T18:18:56.837
+Unexpected IOException with stream: 18:18:56.837 [main] INFO  APITests.BaseTest - testUpdateBookingReturnsCorrectDetails has been executed
+
+
+# Created at 2023-09-11T18:18:56.838
+Unexpected IOException: 6,1,APITests.UpdateBookingTests,testUpdateBookingReturnsCorrectDetails,null,null,null
+
+
+# Created at 2023-09-11T18:18:56.839
+Unexpected IOException: 5,1,APITests.UpdateBookingTests,testPartialUpdateBookingReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:19:00.348
+Unexpected IOException with stream: 18:19:00.347 [main] INFO  APITests.BaseTest - testPartialUpdateBookingReturns200 has been executed
+
+
+# Created at 2023-09-11T18:19:00.349
+Unexpected IOException: 6,1,APITests.UpdateBookingTests,testPartialUpdateBookingReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:19:00.350
+Unexpected IOException: 5,1,APITests.UpdateBookingTests,testUpdateBookingReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:19:03.907
+Unexpected IOException with stream: 18:19:03.906 [main] INFO  APITests.BaseTest - testUpdateBookingReturns200 has been executed
+
+
+# Created at 2023-09-11T18:19:03.908
+Unexpected IOException: 6,1,APITests.UpdateBookingTests,testUpdateBookingReturns200,null,null,null
+
+
+# Created at 2023-09-11T18:19:03.930
+Unexpected IOException with stream: 18:19:03.929 [main] INFO  APITests.BaseTest - All test cases have been executed.
+
+
+# Created at 2023-09-11T18:19:03.931
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,APITests.UpdateBookingTests,null,null,null
+
+

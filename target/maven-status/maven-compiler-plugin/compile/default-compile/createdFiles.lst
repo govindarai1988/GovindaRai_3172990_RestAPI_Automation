@@ -1,0 +1,11 @@
+app\payloads\AuthRequestPayload.class
+app\configs\ExtentManager.class
+app\payloads\AuthRequestPayload$AuthRequestPayloadBuilder.class
+app\payloads\BookingRequestPayload.class
+app\payloads\BookingRequestPayload$BookingRequestPayloadBuilder.class
+app\urls\ApiEndpoints.class
+app\payloads\AuthResponsePayload.class
+app\hooks\AuthApi.class
+app\hooks\BookingApi.class
+app\payloads\BookingResponsePayload.class
+app\hooks\PingApi.class

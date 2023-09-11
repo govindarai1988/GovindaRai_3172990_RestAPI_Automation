@@ -1,0 +1,107 @@
+2023-09-08 19:26:47.155 [main] INFO  com.nagarro.test.BaseTest - Test case execution has started
+2023-09-08 19:26:49.771 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 19:26:49.950 [main] INFO  com.nagarro.test.BaseTest - all test executed
+2023-09-08 19:30:01.488 [main] INFO  com.nagarro.test.BaseTest - Test case execution has started
+2023-09-08 19:30:05.456 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:30:07.884 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:30:11.375 [main] INFO  com.nagarro.test.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 19:30:13.676 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:30:16.501 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 19:30:20.035 [main] INFO  com.nagarro.test.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:30:23.554 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:30:25.964 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 19:30:28.343 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 19:30:31.985 [main] INFO  com.nagarro.test.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 19:30:34.258 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 19:30:34.457 [main] INFO  com.nagarro.test.BaseTest - all test executed
+2023-09-08 19:47:22.865 [main] INFO  com.nagarro.test.BaseTest - Test case execution has started
+2023-09-08 19:47:26.899 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:47:29.223 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:47:32.871 [main] INFO  com.nagarro.test.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 19:47:35.211 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:47:37.678 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 19:47:41.129 [main] INFO  com.nagarro.test.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:47:44.669 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:47:47.107 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 19:47:49.456 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 19:47:52.937 [main] INFO  com.nagarro.test.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 19:47:55.249 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 19:47:55.436 [main] INFO  com.nagarro.test.BaseTest - all test executed
+2023-09-08 19:50:04.361 [main] INFO  com.nagarro.test.BaseTest - Test case execution has started
+2023-09-08 19:50:08.320 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:50:10.736 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 19:50:13.990 [main] INFO  com.nagarro.test.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 19:50:16.412 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:50:19.034 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 19:50:22.489 [main] INFO  com.nagarro.test.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:50:25.909 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 19:50:28.210 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 19:50:30.614 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 19:50:34.182 [main] INFO  com.nagarro.test.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 19:50:36.619 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 19:50:36.889 [main] INFO  com.nagarro.test.BaseTest - all test executed
+2023-09-08 20:30:31.071 [main] INFO  APITests.BaseTest - Test case execution has started
+2023-09-08 20:30:35.014 [main] INFO  APITests.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:30:37.324 [main] INFO  APITests.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:30:40.888 [main] INFO  APITests.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 20:30:43.349 [main] INFO  APITests.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:30:45.956 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 20:30:49.539 [main] INFO  APITests.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:30:53.186 [main] INFO  APITests.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:30:55.517 [main] INFO  APITests.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 20:30:57.906 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 20:31:01.600 [main] INFO  APITests.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 20:31:03.941 [main] INFO  APITests.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 20:31:04.122 [main] INFO  APITests.BaseTest - all test executed
+2023-09-08 20:50:40.437 [main] INFO  com.nagarro.test.BaseTest - Test case execution has started
+2023-09-08 20:50:44.495 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:50:46.947 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:50:50.389 [main] INFO  com.nagarro.test.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 20:50:52.805 [main] INFO  com.nagarro.test.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:50:55.562 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 20:50:59.035 [main] INFO  com.nagarro.test.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:51:02.601 [main] INFO  com.nagarro.test.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:51:11.066 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 20:51:13.472 [main] INFO  com.nagarro.test.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 20:51:16.907 [main] INFO  com.nagarro.test.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 20:51:19.269 [main] INFO  com.nagarro.test.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 20:51:19.461 [main] INFO  com.nagarro.test.BaseTest - all test executed
+2023-09-08 20:55:50.830 [main] INFO  APITests.BaseTest - Test case execution has started
+2023-09-08 20:55:54.910 [main] INFO  APITests.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:55:57.233 [main] INFO  APITests.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:56:00.778 [main] INFO  APITests.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 20:56:03.097 [main] INFO  APITests.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:56:05.763 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 20:56:09.244 [main] INFO  APITests.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:56:12.774 [main] INFO  APITests.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:56:15.229 [main] INFO  APITests.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 20:56:17.577 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 20:56:21.127 [main] INFO  APITests.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 20:56:23.367 [main] INFO  APITests.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 20:56:23.571 [main] INFO  APITests.BaseTest - all test executed
+2023-09-08 20:59:24.979 [main] INFO  APITests.BaseTest - Test case execution has started
+2023-09-08 20:59:28.946 [main] INFO  APITests.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:59:31.402 [main] INFO  APITests.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 20:59:36.078 [main] INFO  APITests.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 20:59:38.587 [main] INFO  APITests.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:59:41.213 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 20:59:44.726 [main] INFO  APITests.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:59:48.301 [main] INFO  APITests.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 20:59:50.740 [main] INFO  APITests.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 20:59:53.157 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 20:59:56.723 [main] INFO  APITests.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 20:59:59.193 [main] INFO  APITests.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 20:59:59.381 [main] INFO  APITests.BaseTest - all test executed
+2023-09-08 21:00:15.586 [main] INFO  APITests.BaseTest - Test case execution has started
+2023-09-08 21:00:19.606 [main] INFO  APITests.BaseTest - testUpdateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 21:00:21.989 [main] INFO  APITests.BaseTest - testCreateBookingReturnsCorrectDetails(TestInfo) has been executed
+2023-09-08 21:00:25.500 [main] INFO  APITests.BaseTest - testGetBookingByIdReturns200(TestInfo) has been executed
+2023-09-08 21:00:27.885 [main] INFO  APITests.BaseTest - testCreateBookingReturns200(TestInfo) has been executed
+2023-09-08 21:00:30.505 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturnsNonEmptyArray(TestInfo) has been executed
+2023-09-08 21:00:34.083 [main] INFO  APITests.BaseTest - testPartialUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 21:00:37.565 [main] INFO  APITests.BaseTest - testUpdateBookingReturns200(TestInfo) has been executed
+2023-09-08 21:00:39.817 [main] INFO  APITests.BaseTest - testGetBookingIdsByNameReturns200(TestInfo) has been executed
+2023-09-08 21:00:42.554 [main] INFO  APITests.BaseTest - testGetAllBookingIdsReturns200(TestInfo) has been executed
+2023-09-08 21:00:49.133 [main] INFO  APITests.BaseTest - testDeleteBookingReturns201(TestInfo) has been executed
+2023-09-08 21:00:51.489 [main] INFO  APITests.BaseTest - testGetBookingIdsByDateReturns200(TestInfo) has been executed
+2023-09-08 21:00:51.682 [main] INFO  APITests.BaseTest - all test executed
