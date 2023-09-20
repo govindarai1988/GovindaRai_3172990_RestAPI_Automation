@@ -1,0 +1,72 @@
+pipeline{
+  agent any
+  triggers {
+  cron('0 06 * * *')
+  }
+  stages{
+    stage("code checkout"){
+      steps{
+      bat "echo hello"
+      }
+    }
+    stage("code build"){
+        steps{
+          bat "mvn clean"
+        }
+      }
+       stage("code test"){
+          steps{
+          bat "mvn test"
+        }
+      }
+        stage("SonarQube analysis") {
+          steps{
+          withSonarQubeEnv("sonar_local") {
+           bat "mvn sonar:sonar"
+        }
+    	}
+	}
+		stage("SonarQube Quality Gate") {
+				steps{
+
+            	waitForQualityGate abortPipeline: true
+
+		}
+		}
+      stage("Publish to Artifactory"){
+        steps{
+              rtMavenDeployer(
+                  id: 'deployer',
+                  serverId:'nagp@govinda',
+                  releaseRepo:'NAGP2023_JFROG',
+                  snapshotRepo:'NAGP2023_JFROG',
+                )
+              rtMavenRun(
+                  pom: 'pom.xml',
+                  goals:'clean install',
+                  deployerId:'deployer'
+              )
+              rtPublishBuildInfo(
+                  serverId:'nagp@govinda',
+              )
+            }
+
+      }
+
+
+}
+post {
+    success{
+        bat "echo success"
+   jacoco(
+                 execPattern: '**/target/jacoco.exec',
+    		classPattern: '**',
+		sourcePattern: '**',
+    		inclusionPattern: '**'
+            )
+            }
+      }
+}
+
+
+
