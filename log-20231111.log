@@ -38,8 +38,8 @@ pipeline{
               rtMavenDeployer(
                   id: 'deployer',
                   serverId:'nagp@govinda',
-                  releaseRepo:'NAGP2023_JFROG',
-                  snapshotRepo:'NAGP2023_JFROG',
+                  releaseRepo:'NAGPExam',
+                  snapshotRepo:'NAGPExam',
                 )
               rtMavenRun(
                   pom: 'pom.xml',
