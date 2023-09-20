@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: APITests.CreateBookingTests
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.106 s - in APITests.CreateBookingTests
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.126 s - in APITests.CreateBookingTests

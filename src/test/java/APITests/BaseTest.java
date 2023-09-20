@@ -4,6 +4,7 @@
  */
 package APITests;
 
+import app.configs.ExcelFileUtility;
 import app.hooks.AuthApi;
 import app.hooks.PingApi;
 import app.configs.ExtentManager;
@@ -32,6 +33,8 @@ public class BaseTest {
     protected final Faker faker = new Faker();
     protected String token;
     public static final Logger logger = LogManager.getLogger(BaseTest.class);
+
+    public ExcelFileUtility eLib = new ExcelFileUtility();
 
     /**
      * Executed once before all test cases in the class.

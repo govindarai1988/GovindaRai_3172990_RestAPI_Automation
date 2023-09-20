@@ -1,5 +1,6 @@
 package app.hooks;
 
+import app.configs.ExcelFileUtility;
 import app.payloads.BookingRequestPayload;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -9,6 +10,19 @@ import static app.urls.ApiEndpoints.BOOKING_ENDPOINT;
 import static io.restassured.RestAssured.given;
 
 public final class BookingApi {
+
+    public static ExcelFileUtility eLib = new ExcelFileUtility();
+
+    private static final String ENDPOINT1;
+
+    static {
+        try {
+            ENDPOINT1 = eLib.readDataFromExcel("API",1,0) + eLib.readDataFromExcel("API",1,2);
+        } catch (Throwable e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     private static final String ENDPOINT = BASE_URL + BOOKING_ENDPOINT;
     private static final String MEDIA_TYPE_JSON = "application/json";
 
@@ -21,7 +35,7 @@ public final class BookingApi {
      * @return The response containing all booking IDs.
      */
     public static Response getAllBookingIds() {
-        return given().when().get(ENDPOINT);
+        return given().when().get(ENDPOINT1);
     }
 
     /**
@@ -36,7 +50,7 @@ public final class BookingApi {
                 .param("firstname", firstName)
                 .param("lastname", lastName)
                 .when()
-                .get(ENDPOINT);
+                .get(ENDPOINT1);
     }
 
     /**
@@ -51,7 +65,7 @@ public final class BookingApi {
                 .param("checkin", checkin)
                 .param("checkout", checkout)
                 .when()
-                .get(ENDPOINT);
+                .get(ENDPOINT1);
     }
 
     /**
@@ -61,7 +75,7 @@ public final class BookingApi {
      * @return The response containing booking details for the specified ID.
      */
     public static Response getBookingById(int id) {
-        return given().accept(MEDIA_TYPE_JSON).when().get(ENDPOINT + id);
+        return given().accept(MEDIA_TYPE_JSON).when().get(ENDPOINT1 + id);
     }
 
     /**
@@ -76,7 +90,7 @@ public final class BookingApi {
                 .accept(MEDIA_TYPE_JSON)
                 .body(bookingRequestPayload)
                 .when()
-                .post(ENDPOINT);
+                .post(ENDPOINT1);
     }
 
     /**
@@ -95,7 +109,7 @@ public final class BookingApi {
                 .header("Cookie", "token=" + authToken)
                 .body(bookingRequestPayload)
                 .when()
-                .put(ENDPOINT + id);
+                .put(ENDPOINT1 + id);
     }
 
     /**
@@ -114,7 +128,7 @@ public final class BookingApi {
                 .header("Cookie", "token=" + authToken)
                 .body(bookingRequestPayload)
                 .when()
-                .patch(ENDPOINT + id);
+                .patch(ENDPOINT1 + id);
     }
 
     /**
@@ -125,6 +139,6 @@ public final class BookingApi {
      * @return The response indicating the status of the delete operation.
      */
     public static Response deleteBooking(int id, String authToken) {
-        return given().header("Cookie", "token=" + authToken).when().delete(ENDPOINT + id);
+        return given().header("Cookie", "token=" + authToken).when().delete(ENDPOINT1 + id);
     }
 }
