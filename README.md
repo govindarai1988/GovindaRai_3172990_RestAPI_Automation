@@ -33,6 +33,8 @@ To get started with this project, follow these steps:
 
    ```sh
    Extract Zip and keep on local folder!
+   or 
+   git clone https://github.com/govindarai1988/GovindaRai_3172990_RestAPI_Automation.git
 
 2. Navigate to the project directory:
     ```sh 
